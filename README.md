@@ -1,5 +1,7 @@
 
-![20240902_184122](https://github.com/user-attachments/assets/f659b074-324a-41c8-a828-789f6d1d691d)
+# Supabase 기초강의 기반 메모 CRUD
+
+![20240902_184753](https://github.com/user-attachments/assets/b58d32be-2501-4cd6-9099-ad2c20c94c1d)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
