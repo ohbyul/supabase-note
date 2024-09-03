@@ -14,11 +14,11 @@ import { Database } from "@/types_db";
 export default function UI() {
   const [activeNoteId, setActiveNoteId] = useState(null);
   const [isCreating, setIsCreating] = useState(false);
-  const [notes, setNotes] = useState<Database['public']['Tables']['note']['Row']>([]);
+  const [notes, setNotes] = useState<any>();
   const [search , setSearch]= useState('')
 
   const fetchNotes = async () => {
-    const { data, error } = await supabase.from('note').select('*').ilike('title',`%${search}%`)
+    const { data, error }: any = await supabase.from('note').select('*').ilike('title',`%${search}%`)
     if (error) {
       alert(error.message)
       return;
