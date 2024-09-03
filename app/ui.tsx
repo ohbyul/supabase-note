@@ -14,7 +14,7 @@ import { Database } from "@/types_db";
 export default function UI() {
   const [activeNoteId, setActiveNoteId] = useState(null);
   const [isCreating, setIsCreating] = useState(false);
-  const [notes, setNotes] = useState<any>();
+  const [notes, setNotes] = useState<any[]>([]);
   const [search , setSearch]= useState('')
 
   const fetchNotes = async () => {
