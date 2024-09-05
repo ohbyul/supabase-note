@@ -9,6 +9,7 @@ import NewNote from "@/components/new-note";
 import NoteViewer from "@/components/note-viewer";
 import { supabase } from "@/utils/supabase";
 import { Database } from "@/types_db";
+import Footer from "@/components/Footer";
 
 
 export default function UI() {
@@ -58,6 +59,7 @@ export default function UI() {
           <EmptyNote />
         )}
       </div>
+      <Footer />
     </main>
   );
 }
